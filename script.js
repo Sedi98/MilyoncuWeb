@@ -115,7 +115,7 @@ function endGame() {
 function newQuestion() {
   time = 30;
   startTime();
-  let randomIndex = Math.floor(Math.random() * (questions.length - 1));
+  let randomIndex = Math.floor(Math.random() * (questions.length - 2));
   console.log(randomIndex);
   let newQuest = questions[randomIndex];
   questIndex = randomIndex;

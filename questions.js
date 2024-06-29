@@ -13,25 +13,31 @@ let questions = [
   },
   {
     question:
-      "Javascript istifadə edərək backend yazmaq üçün nədən istifadə edilir?",
-    answer: "NodeJS",
-    options: ["CodeJS", "MockJS", "ReactJS", "NodeJS"],
+      "Front-End sahəsinə aid olan terminlər olan variantı seçin.",
+    answer: "HTML, CSS, JavaScript, ReactJS",
+    options: ["HTML, CSS, JavaScript, ReactJS, NodeJS", "HTML, CSS, Php, ReactJS", "HTML, CSS, JavaScript, ReactJS", "HTML, NodeJS, JavaScript, ReactJS"],
   },
   {
     question: "HTML-də hansı teq istifadə edilərək link yaradılır?",
     answer: "a",
-    options: ["div", "link", "a", "span"],
+    options: ["href", "link", "a", "span"],
   },
   {
     question:
-      "CSS-də hansı property istifadə edilərək elementin fon rəngi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin arxa fon rəngi təyin edilir?",
     answer: "background-color",
-    options: ["color", "background", "background-color", "font-color"],
+    options: ["color", "box-color", "background-color", "font-color"],
   },
   {
     question:
       "JavaScript-də hansı operator istifadə edilərək bərabərlik yoxlanılır?",
     answer: "==",
+    options: ["=", "===", "==", "!="],
+  },
+  {
+    question:
+      "JavaScript-də hansı operator mənimsətmə üçün istifadə edilir?",
+    answer: "=",
     options: ["=", "===", "==", "!="],
   },
   {
@@ -52,13 +58,19 @@ let questions = [
     options: ["console.log()", "alert()", "prompt()", "document.write()"],
   },
   {
+    question:
+      "JavaScript-də hansı funksiya istifadə edilərək istifadəçidən məlumatlar əldə etmək olar?",
+    answer: "prompt()",
+    options: ["console.log()", "alert()", "prompt()", "document.write()"],
+  },
+  {
     question: "HTML-də hansı teq istifadə edilərək başlıq mətni yazılır?",
     answer: "h1",
     options: ["header", "h1", "head", "title"],
   },
   {
     question:
-      "CSS-də hansı property istifadə edilərək elementin kənar sərhəd xətti təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin kənar  xətti təyin edilir?",
     answer: "border",
     options: ["border", "outline", "line", "frame"],
   },
@@ -94,7 +106,7 @@ let questions = [
     question:
       "CSS-də hansı property istifadə edilərək elementin görünməsi/yox olması təyin edilir?",
     answer: "display",
-    options: ["visibility", "display", "show", "hidden"],
+    options: ["visible", "display", "show", "hidden"],
   },
   {
     question:
@@ -125,6 +137,11 @@ let questions = [
     options: ["tr", "td", "table", "tbody"],
   },
   {
+    question: "HTML-də hansı teq istifadə edilərək cədvəl sütunu yaradılır?",
+    answer: "td",
+    options: ["tr", "td", "table", "tbody"],
+  },
+  {
     question:
       "CSS-də hansı property istifadə edilərək elementin xarici boşluğu təyin edilir?",
     answer: "margin",
@@ -137,13 +154,8 @@ let questions = [
     options: ["unshift()", "shift()", "pop()", "splice()"],
   },
   {
-    question: "HTML-də hansı teq istifadə edilərək link açılır?",
-    answer: "a",
-    options: ["link", "href", "a", "url"],
-  },
-  {
     question:
-      "CSS-də hansı property istifadə edilərək elementin şrift ailəsi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin yazı tipi təyin edilir?",
     answer: "font-family",
     options: ["font", "font-family", "text-family", "font-type"],
   },
@@ -222,13 +234,13 @@ let questions = [
     options: ["order()", "filter()", "sort()", "map()"],
   },
   {
-    question: "HTML-də hansı teq istifadə edilərək cədvəl setırı yaradılır?",
+    question: "HTML-də hansı teq istifadə edilərək cədvəl sətiri yaradılır?",
     answer: "tr",
     options: ["tr", "table", "td", "th"],
   },
   {
     question:
-      "CSS-də hansı property istifadə edilərək elementin ölçüsünün(vidth) avtomatik olması təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin ölçüsünün(vvidth) avtomatik olması təyin edilir?",
     answer: "auto",
     options: ["inherit", "default", "auto", "initial"],
   },
@@ -249,8 +261,6 @@ let questions = [
     answer: "join()",
     options: ["concat()", "combine()", "merge()", "join()"],
   },
-
-  ,
   {
     question:
       "JavaScript-də hansı metod istifadə edilərək bir stringin müəyyən bir hissəsinin dəyişdirilməsi mümkündür?",
@@ -267,20 +277,13 @@ let questions = [
 
   {
     question:
-      "HTML-də hansı teq istifadə edilərək siyahı elementləri yaradılır?",
+      "HTML-də hansı teq istifadə edilərək siyahı daxili element yaradılır?",
     answer: "li",
     options: ["li", "ul", "ol", "list"],
   },
   {
     question:
-      "CSS-də hansı property istifadə edilərək elementin keçidləri təyin edilir?",
-    answer: "transition",
-    options: ["transition", "animation", "transform", "effect"],
-  },
-
-  {
-    question:
-      "CSS-də hansı xassə istifadə edilərək elementin yüksəkliyi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin yüksəkliyi təyin edilir?",
     answer: "height",
     options: ["width", "length", "height", "size"],
   },
@@ -297,14 +300,14 @@ let questions = [
   },
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin mətn üslubu təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin mətn üslubu təyin edilir?",
     answer: "font-style",
     options: ["text-style", "font-weight", "text-weight", "font-style"],
   },
 
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin şrift rəngi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin şrift rəngi təyin edilir?",
     answer: "color",
     options: ["font-color", "text-color", "color", "foreground-color"],
   },
@@ -316,7 +319,7 @@ let questions = [
   },
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin xətt bəzəyi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin xətt bəzəyi təyin edilir?",
     answer: "text-decoration",
     options: ["text-style", "text-format", "text-decoration", "text-transform"],
   },
@@ -329,7 +332,7 @@ let questions = [
   },
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin sərhəd xətti genişliyi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin sərhəd xətti genişliyi təyin edilir?",
     answer: "border-width",
     options: ["border-size", "border-width", "border-height", "border-length"],
   },
@@ -347,7 +350,7 @@ let questions = [
   },
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin sərhəd xətti stili təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin sərhəd xətti stili təyin edilir?",
     answer: "border-style",
     options: ["border-type", "border-format", "border-pattern", "border-style"],
   },
@@ -377,7 +380,7 @@ let questions = [
   },
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin şrift ölçüsü təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin şrift ölçüsü təyin edilir?",
     answer: "font-size",
     options: ["font-size", "text-size", "font-height", "text-height"],
   },
@@ -390,7 +393,7 @@ let questions = [
 
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin rəngi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin rəngi təyin edilir?",
     answer: "color",
     options: ["color", "font-color", "text-color", "background-color"],
   },
@@ -416,7 +419,7 @@ let questions = [
 
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin mətnin yönləndirilməsi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin mətnin yönləndirilməsi təyin edilir?",
     answer: "text-align",
     options: ["text-align", "align", "text-direction", "text-position"],
   },
@@ -445,7 +448,7 @@ let questions = [
   },
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin yer dəyişməsi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin yer dəyişməsi təyin edilir?",
     answer: "position",
     options: ["position", "location", "place", "align"],
   },
@@ -462,7 +465,7 @@ let questions = [
   },
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin xətt hündürlüyü təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin xətt hündürlüyü təyin edilir?",
     answer: "line-height",
     options: ["line-height", "height", "font-height", "text-height"],
   },
@@ -480,7 +483,7 @@ let questions = [
   },
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin sərhəd radiusu təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin sərhəd radiusu təyin edilir?",
     answer: "border-radius",
     options: ["border-radius", "radius", "border-width", "border-style"],
   },
@@ -493,7 +496,7 @@ let questions = [
 
   {
     question:
-      "CSS-də hansı xassə istifadə edilərək elementin mətn kölgəsi təyin edilir?",
+      "CSS-də hansı property istifadə edilərək elementin mətn kölgəsi təyin edilir?",
     answer: "text-shadow",
     options: ["text-shadow", "shadow", "box-shadow", "opacity"],
   },
